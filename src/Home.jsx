@@ -26,7 +26,7 @@ export default function Home() {
   }
 
   function formatShortUrl(shortUrlKey) {
-    return BASE_URL +'sh/'+ shortUrlKey;
+    return BASE_URL +'s/'+ shortUrlKey;
   }
 
   function copyUrlToClipboard() {
